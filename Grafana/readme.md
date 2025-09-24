@@ -10,11 +10,13 @@ Se instalan las dependencias necesarias para gestionar los repositorios de softw
 ## 3.2 Agregar el Repositorio de Grafana
 
 Se importa la clave GPG de Grafana y se agrega su repositorio oficial al sistema. Este método utiliza `signed-by` para mayor seguridad, que es la práctica recomendada actualmente.
+
 <img width="858" height="122" alt="image" src="https://github.com/user-attachments/assets/44c3b6d7-bdc6-4199-ac0c-2b28b6601b3c" />
 
 ## 3.3 Instalar Grafana
 
 Con el repositorio ya configurado, se actualiza la lista de paquetes para incluir los de Grafana y se procede con la instalación.
+
 <img width="709" height="306" alt="image" src="https://github.com/user-attachments/assets/7d229ffc-e4e9-4388-9628-377c8793e276" />
 
 ## 3.4 Iniciar y Verificar el Servicio
@@ -42,6 +44,8 @@ Al iniciar sesión por primera vez, Grafana solicitará de inmediato el cambio d
 ## Grafana - Data Sources
 
 Se configura la fuente de datos para conectar Grafana con InfluxDB y Prometheus, permitiendo la visualización de métricas en dashboards interactivos.
+<img width="956" height="340" alt="image" src="https://github.com/user-attachments/assets/db195c7a-10be-4c0f-b40a-1e09295d08c9" />
+
 
 **Autor**: Aaron Casildo Rubalcava  
 **Institución**: TECNM / Instituto Tecnológico de Tijuana  
