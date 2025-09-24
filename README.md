@@ -33,7 +33,7 @@ La documentación se organiza en carpetas para facilitar la lectura y seguimient
 ### 1. Configuración de Tailscale (20%)  
 Se configuró una **VPN con Tailscale** para interconectar de forma segura la instancia EC2 y los dispositivos personales.  
 Esto eliminó la necesidad de exponer puertos públicos, aumentando la seguridad.  
-<img width="892" height="627" alt="image" src="https://github.com/user-attachments/assets/b2aed012-d714-40d0-ab8d-47176e4d6676" />
+<img width="882" height="494" alt="image" src="https://github.com/user-attachments/assets/ff5ec348-cdf8-4538-b832-cfe797ad3a73" />
 
 ---
 
