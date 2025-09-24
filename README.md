@@ -41,7 +41,7 @@ Esto eliminó la necesidad de exponer puertos públicos, aumentando la seguridad
 - Instalación desde repositorio oficial.  
 - Creación de **organización**, **bucket** y **token** de autenticación.  
 
-[Ver Pasos de Instalación de InfluxDB](./influxDB/readme.md)  
+[Ver Pasos de Instalación de InfluxDB](./InfluxDB/readme.md)  
 
 ---
 
@@ -71,6 +71,10 @@ import time
 from influxdb_client import InfluxDBClient, Point, WritePrecision
 from influxdb_client.client.write_api import SYNCHRONOUS
 
+# Casildo Rubalcava Aaron    22212222
+# Sistemas programables
+# Programa que envía datos de temperatura y humedad a una bucket de influxDB
+
 # --- CONFIGURACIÓN REAL ---
 token = "###########################################################################################"
 org = "SistemasProgramables"
@@ -97,7 +101,8 @@ try:
 
         write_api.write(bucket=bucket, record=punto)
         print(f"Enviado: temperatura={temperatura}°C, humedad={humedad}%")
-        time.sleep(5)
+        time.sleep(1)
+        #Envío de mensaje a cada segundo
 
 except KeyboardInterrupt:
     print("\n--- Simulador detenido ---")
@@ -110,7 +115,10 @@ Se creó un dashboard unificado que integra:
 - **Métricas IoT** desde InfluxDB.  
 - **Métricas de sistema** desde Prometheus/Node Exporter.  
 
-Resultado final disponible en:
+<img width="1920" height="766" alt="image" src="https://github.com/user-attachments/assets/3f552448-1152-4e5e-ab8f-b9ed93469339" />
+
+Resultado final disponible en: 
+https://www.loom.com/share/f94ea96f614f4f27ba8b4551e6919132?sid=2fa52b00-1ebd-4673-b69a-e5b9d80e9078
 
 ---
 
